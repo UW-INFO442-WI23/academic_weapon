@@ -1,0 +1,92 @@
+.mainbody{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.coverImage{
+    margin: auto;
+    background-image: url('../public/about.png');
+    margin-top: 10px;
+    width: 1116px;
+    height: 594px;
+}
+
+.impact1{
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    width: 340px;
+    height: 340px;
+    position: relative;
+}
+
+.impact1img{
+    background-image: url('../public/vegetables1.png');
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.impact2{
+    margin-top: 10px;
+    background-color: #FFE9E9;
+    width: 340px;
+    height: 340px;
+    position: relative;
+}
+
+.impact2img{
+    background-image: url('../public/cabbage1.png');
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.impact3{
+    margin-top: 10px;
+    background-color: #FFFAE8;
+    width: 340px;
+    height: 340px;
+    position: relative;
+}
+
+.impact3img{
+    background-image: url('../public/farmer1.png');
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.sourceImg{
+    background-image: url('../public/source.png');
+    width: 533px;
+    height: 610px;
+}
+
+.searchImg{
+    background-image: url('../public/searching1.png');
+    width: 114px;
+    height: 120px;
+}
+
+.compareImg{
+    background-image: url('../public/compare1.png');
+    width: 114px;
+    height: 120px;
+}
+
+.selectImg{
+    background-image: url('../public/flag1.png');
+    width: 114px;
+    height: 120px;
+}
+
+.sendImg{
+    background-image: url('../public/distribution1.png');
+    width: 114px;
+    height: 120px;
+}

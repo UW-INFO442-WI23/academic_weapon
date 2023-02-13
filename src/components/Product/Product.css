@@ -1,0 +1,221 @@
+
+
+.body {
+    background-color: #f1f1f17d;
+    /* margin: 60px; */
+    width: 1280px;
+    /* height: 1995px; */
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.topButton{
+    display: flex;
+    flex: 1;
+    height: 50px;
+}
+.top{
+    padding: 20px;
+}
+.tittle{
+    position: relative;
+    flex : 6;
+}
+.rTittle{
+    height: 100%;
+    flex: 2;
+    position: relative;
+}
+.cart{
+    width: 45px;
+    height: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+.cartImg{
+    position: absolute;
+    bottom: 3px;
+}
+.fontNo{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: rgb(0, 128, 6);
+}
+.fontTop{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    bottom: 3px;
+}
+
+.middle{
+    padding: 20px;
+}
+.topButton{
+    display: flex;
+    width: 1116px;
+    height: 50px;
+    margin: auto;
+}
+
+.backgroundImg{
+    margin: auto;
+    background-image: url('../../../public/fruit.png');
+    background-repeat:no-repeat;
+    margin-top: 10px;
+    width: 1116px;
+    height: 594px;
+    /* width: 100%; */
+    /* height: auto; */
+    background-size: 100% 100%;
+   
+}
+.backgroundTittle1{
+    /* margin-top: 1000px; */
+    padding-top: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backgroundTittle2{
+    /* margin-top: 1000px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backgroundTittle3{
+    height: 35px;
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.magnifier{
+    position: absolute;
+    bottom: 3px;
+    left: 825px;
+}
+.input{
+    width: 600px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+}
+.middleButton{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    width: 1116px;
+}
+.midBut1{
+    flex: 6;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(228, 42, 18, 0.678);
+    position: relative;
+}
+.midBut2{
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.but1{
+    position: absolute;
+    bottom: 3px;
+}
+.productItems{
+    margin: auto;
+    width: 1116px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 200px;
+}
+.item{
+    margin-top: 5px;
+    margin-right: 38px;
+    width: 250px;
+    height: 439px;
+}
+.item1{
+    /* margin-right: 38px; */
+    margin-top: 5px;
+    width: 250px;
+    height: 439px;
+}
+.itemImg{
+    margin-top: 10px;
+    background-color: blue;
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+.add{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background-color: rgb(28, 148, 28);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+}
+.itemVo{
+    background-color: gray;
+    height: 139px;
+   
+}
+.itemVo1{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Opan Sans;
+}
+.itemVo2{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Opan Sans;
+}
+.itemVo3{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: Myriad pro Semibold;
+}
+
+.bottom{
+    background-color: green;
+    width: 1280px;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Open Sans;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,156 @@
+```
+[
+   {
+    "productName": "carrots",
+    "price": 6,
+    "farm": "Kirsop Farm",
+    "productUnit": "2lbs",
+    "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2199&q=80" 
+   },
+
+   {
+    "productName": "potatoes",
+    "price": 6,
+    "farm": "Kirsop Farm",
+    "productUnit": "2lbs",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+   },
+
+   {
+    "productName": "Box of Veggies",
+    "price": 30,
+    "farm": "Kirsop Farm",
+    "productUnit": "1 box",
+    "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+   },
+
+   {
+    "productName": "Lamb Chops",
+    "price": 17,
+    "farm": "Kirsop Farm",
+    "productUnit": "1lb",
+    "image": "https://images.unsplash.com/photo-1597398230884-35763d59ed15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+   },
+
+   {
+    "productName": "Lamb Steaks",
+    "price": 17,
+    "farm": "Kirsop Farm",
+    "productUnit": "1lb",
+    "image": "https://images.unsplash.com/photo-1600180786608-28d06391d25c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+   },
+
+   {
+    "productName": "Whole Chicken (w/o Head & Feet)",
+    "price": 66,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "6lbs",
+    "image": "https://images.unsplash.com/photo-1642102903996-cdad15f5dcdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+   },
+
+   {
+    "productName": "Spicy Italian Sausage",
+    "price": 18,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "1lb",
+    "image": "https://s3.amazonaws.com/grazecart/seabreezefarm/images/1656713798_62bf72464966b.jpg"
+   },
+
+   {
+    "productName": "French Butter",
+    "price": 15,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "250g",
+    "image": "https://s3.amazonaws.com/grazecart/seabreezefarm/images/1656464295_62bba3a7aa197.jpg"
+   },
+
+   {
+    "productName": "Parmigiano Reggiano",
+    "price": 29,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "1lb",
+    "image": "https://s3.amazonaws.com/grazecart/seabreezefarm/images/1656466401_62bbabe13e567.jpg"
+   },
+
+   {
+    "productName": "Sliced Basque Salami",
+    "price": 27.5,
+    "farm":"Sea Breeze Farm",
+    "productUnit": "8oz",
+    "image": "https://s3.amazonaws.com/grazecart/seabreezefarm/images/1656456352_62bb84a04b285.jpg"
+   },
+
+   {
+    "productName": "George's Dijon Mustard",
+    "price": 20,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "16oz",
+    "image": "https://s3.amazonaws.com/grazecart/seabreezefarm/images/1604619509_5fa48cf5bb3b6.jpg"
+   }, 
+
+   {
+    "productName": "Heirloom & Cherry Tomatoes",
+    "price": 4,
+    "farm": "Nash's Organic Produce Farm",
+    "productUnit": "1lb",
+    "image": "https://images.unsplash.com/photo-1594975620064-bad38e1c9e30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+   },
+
+   {
+    "productName": "Bunched Carrots",
+    "price": 4,
+    "farm": "Nash's Organic Produce Farm",
+    "productUnit": "1 bunch",
+    "image": "https://images.pexels.com/photos/73640/pexels-photo-73640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+   },
+   {
+      "productName": "Beef, Chuck",
+      "price": 16,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "2.5 lb",
+      "image": "./images/beefchuck.png"
+     },
+     {
+      "productName": "Lamb, Plate Ribs",
+      "price": 18,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "1 pack",
+      "image": "./images/lamb.png"
+     },
+     {
+      "productName": "Beef, Liver",
+      "price": 6,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "1 each",
+      "image": "./images/beef,liver.png"
+     },
+     {
+      "productName": "Fresh Eggs",
+      "price": 3,
+      "farm": "Goat & Seed Family Farm",
+      "productUnit": "4 pack",
+      "image": "./images/fresh egg.png"
+     },
+     {
+      "productName": "Seasonal Vegetable Box",
+      "price": 69,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 box",
+      "image": "./images/veggiebox.png"
+     },
+     {
+      "productName": "Carrots",
+      "price": 9.5,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 lb",
+      "image": "./images/fjfcarrots.png"
+     },
+     {
+      "productName": "Beets",
+      "price": 9.5,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 lb",
+      "image": "./images/beets.png"
+     }
+]
+```

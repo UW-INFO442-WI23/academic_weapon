@@ -2,7 +2,7 @@ import '../../index.css';
 
 function About() {
     return (
-        <div className='mainbody'>
+        <div className='aboutbody'>
             <div className='coverImage'></div>
 
             <div className='mission'>

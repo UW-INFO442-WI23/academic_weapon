@@ -1,4 +1,4 @@
-.mainbody{
+.aboutbody, .cartbody{
     width: 1280px;
     height: auto;
     margin: auto;
@@ -212,3 +212,21 @@
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
+/* cart page */
+.column {
+    float: left;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

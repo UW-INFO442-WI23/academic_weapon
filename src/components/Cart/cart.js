@@ -5,23 +5,32 @@ function Cart() {
         <div className='cartbody row'>
             <div className='column left'>
                 <div className='pickup'>
-                    <p>Pick-Up Location & Time</p>
-                    <button class="button-3" role="button">location and time 1</button>
-                    <button class="button-3" role="button">location and time 2</button>
-                    <button class="button-3" role="button">location and time 3</button>
+                    <p className='cartTitle'>Pick-Up Location & Time</p>
+                    <button class="button-3 pickupButton" role="button">
+                        <div>January 26 (10:00 - 16:00)</div>
+                        <div>Seattle Community Center</div>
+                    </button>
+                    <button class="button-3 pickupButton" role="button">
+                        <div>January 27 (10:00 - 16:00)</div>
+                        <div>Safeway Northgate</div>
+                    </button>
+                    <button class="button-3 pickupButton" role="button">
+                        <div>January 28 (10:00 - 16:00)</div>
+                        <div>Seattle Community Center</div>
+                    </button>
                 </div>
 
                 <div className='payment'>
-                    <p>Payment Checkout</p>
-                    <p>Full Name</p>
+                    <p className='cartTitle'>Payment Checkout</p>
+                    <p className='paymentInfo'>Full Name</p>
                     <textarea></textarea>
-                    <p>Card Number</p>
+                    <p className='paymentInfo'>Card Number</p>
                     <textarea></textarea>
-                    <p>Billing Address</p>
+                    <p className='paymentInfo'>Billing Address</p>
                     <textarea></textarea>
-                    <p>Expiration Date</p>
+                    <p className='paymentInfo'>Expiration Date</p>
                     <textarea></textarea>
-                    <p>CVV</p>
+                    <p className='paymentInfo'>CVV</p>
                     <textarea></textarea>
                 </div>
             </div>
@@ -30,8 +39,11 @@ function Cart() {
                 <div className='cartItems'>
                     <div>
                         <p>data</p>
-                        
                     </div>
+                </div>
+
+                <div className='checkout'>
+                    <button class="button-3" role="button">Submit</button>
                 </div>
             </div>
         </div>

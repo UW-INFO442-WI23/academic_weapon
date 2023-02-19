@@ -9,7 +9,7 @@ import Cart from './components/Cart/cart.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<Product></Product>
-  <About></About>
+  //<About></About>
   //<Navbar></Navbar>
-  //<Cart></Cart>
+  <Cart></Cart>
 );

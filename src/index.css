@@ -1,4 +1,4 @@
-.aboutbody, .cartbody{
+.aboutbody, .cartbody, .confirmationbody{
     width: 1280px;
     height: auto;
     margin: auto;
@@ -259,4 +259,71 @@ textarea {
 
 .paymentInfo {
     margin-left: 50px;
+}
+
+/* confirmation page */
+.successImg{
+    background-image: url('../public/Vector.png');
+    width: 152px;
+    height: 152px;
+    margin-top: 150px;
+}
+
+.thankYouMessage, .subMessage, .pickupMessage{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.subMessage{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.pickupDetail{
+    display: flex;
+}
+
+.pickupMessage{
+    font-style: normal;
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 200px;
+}
+
+.pickupConfirmation{
+    flex-grow: 4;
+    display: flex;
+    border-style: solid;
+    margin-right: 200px;
+    border-width: 0.1ch;
+}
+
+.puDate{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    flex-grow: 4;
+}
+
+.puDate p{
+    text-align: center;
+}
+
+.puLocation{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    flex-grow: 5;
+}
+
+.puLocation p{
+    text-align: center;
 }

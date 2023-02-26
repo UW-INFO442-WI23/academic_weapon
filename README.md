@@ -40,24 +40,24 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i3
 # Primary Features
 
 -  About Us Page
-a. Landing Page
-b. Provides background info/mission statement
-c. “How to Order” steps
-d. FAQs/additional resources
+1. Landing Page
+2. Provides background info/mission statement
+3. “How to Order” steps
+4. FAQs/additional resources
 - Search Page
-a. Navigate through top nav bar
-b. Allows users to filter by price, distance, pick-up options
-c. User chooses quantity → price reflects that change
-d. User adds to cart
+1. Navigate through top nav bar
+2. Allows users to filter by price, distance, pick-up options
+3. User chooses quantity → price reflects that change
+4. User adds to cart
 - My Cart Page
-a. Accessed by clicking on “My Cart” icon to view all products in cart before
+1. Accessed by clicking on “My Cart” icon to view all products in cart before
 checking out
-b. Choose pick up location and time
-c. Inputs payment method
+2. Choose pick up location and time
+3. Inputs payment method
 - Order Confirmation/Thank You Page
-a. Allows users to see the order summary of their purchase/confirmation sent
+1. Allows users to see the order summary of their purchase/confirmation sent
 to their email
-b. Pick up time, email sent, extra details
+2. Pick up time, email sent, extra details
 
 # GitHub Pages
 The published site can be viewed here :(update later)

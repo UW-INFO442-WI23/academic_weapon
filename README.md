@@ -1,9 +1,9 @@
 
 ![Image](/img/logo.jpg)
 
-- INFO 442 Problem Statement
 - Group 6 – Academic Weapons
 - Group members: Franchezca L, Mengying J, Kelsey L, Yeary Y, & Chenyang T
+
 
 
 # Our Mission
@@ -17,6 +17,7 @@ Our group is working toward tackling the UN SDG’s goal target 2.1, “By 2030,
 
 ## Analysis what causes the problem.
 Several factors can contribute to urban residents' difficulty accessing healthy and affordable produce. One major factor is the lack of access to grocery stores or farmers' markets in certain neighborhoods, known as "food deserts." These areas are often found in low-income communities. Low income, underserved urban communities tend to make food choices based on the food outlets that are available in their immediate neighborhood. People need access to fresh fruits and vegetables and are instead served by convenience stores or fast food restaurants. Another factor contributing to difficulty accessing local and affordable produce is that fresh fruits and vegetables can be more expensive in urban areas due to higher transportation costs or other expenses. This can make it difficult for low-income residents to afford fresh produce. The third reason might be that urban families often have busy schedules, making it challenging to find the time to shop for fresh produce at farmers' markets or specialty stores. These combined factors make it difficult for urban residents to access local, affordable produce, which can negatively impact their health and well-being.
+
 
 # Problem Statement
 
@@ -36,6 +37,7 @@ https://kingcounty.gov/elected/executive/constantine/initiatives/local-food-init
 
 The cause that we are going to address through our design is a lack of access to fresh produce and local farms while reducing food wastes. Instead of focusing on the vendors, we decide to shift our attention to low-income, urban communities as well as reduction of food wastes effectively. We made this shift because during our research through food consumption, we found that one-third of the food produced for human consumption goes to waste globally, and nearly half of the fruits and vegetables grown does not get consumed. As Edward S. Spang mentioned in his study, food loss and waste caused significant environmental, economic, and social costs. After doing our research, we found out the pain point behind lacking access to fresh and affordable produce, and decided to address this cause.
 https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i34
+
 
 # Primary Features
 
@@ -58,6 +60,7 @@ checking out
 1. Allows users to see the order summary of their purchase/confirmation sent
 to their email
 2. Pick up time, email sent, extra details
+
 
 # GitHub Pages
 The published site can be viewed here :(update later)

@@ -6,12 +6,14 @@ import About from './components/About/about.js';
 import Navbar from './components/NavBar/navbar.js';
 import Cart from './components/Cart/cart.js';
 import Confirmation from './components/Confirmation/confirmation.js';
-
+import router from './router';
+import { RouterProvider } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<Product></Product>
-  //<About></About>
-  //<Navbar></Navbar>
-  //<Cart></Cart>
-  <Confirmation></Confirmation>
+  // <About></About>
+  // <Navbar></Navbar>
+  // <Cart></Cart>
+  // <Confirmation></Confirmation>
+  <RouterProvider router={router}></RouterProvider>
 );

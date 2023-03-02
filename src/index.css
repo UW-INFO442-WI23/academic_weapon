@@ -260,7 +260,70 @@ textarea {
 .paymentInfo {
     margin-left: 50px;
 }
+.cartItems{
+    position: relative;
+    background-color: rgb(228 228 228 / 76%);
+    width: 600px;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 15px
+}
+.cartItems1{
+    position: absolute;
+    font-size: large;
+    top: 15px;
+    left: 10px;
+    width:220px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+}
+.cartItems2{
+    position: absolute;
+    top: 20px;
+    right: 120px;
 
+    font-size: medium;
+}
+.cartItems3{
+    left: 10px;
+    top: 60px;
+    position: absolute;
+    font-size: small;
+}
+.cartItems4{
+    top: 15px;
+    left: 300px;
+    position: absolute;
+    font-size: large;
+}
+.totalPriceTop{
+    width: 600px;
+    height: 10px;
+    border-bottom: 1px solid black;
+}
+.totalPrice{
+    width: 600px;
+    height: 90px;
+    position: relative;
+}
+.totalPriceLeft{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: medium;
+}
+.totalPriceRight{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    font-size: medium;
+}
+.checkout{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
 /* confirmation page */
 .successImg{
     background-image: url('../public/Vector.png');

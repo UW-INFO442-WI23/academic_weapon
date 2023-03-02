@@ -1,0 +1,151 @@
+[
+   {
+    "productName": "Carrots",
+    "price": 6,
+    "farm": "Kirsop Farm",
+    "productUnit": "2lbs",
+    "image": "./images/kcarrots.png" 
+   },
+   {
+    "productName": "Potatoes",
+    "price": 6,
+    "farm": "Kirsop Farm",
+    "productUnit": "2lbs",
+    "image": "./images/kpotato.png" 
+   },
+   {
+    "productName": "Box of Veggies",
+    "price": 30,
+    "farm": "Kirsop Farm",
+    "productUnit": "1 box",
+    "image": "./images/kboxveggie.png" 
+   },
+   {
+    "productName": "Lamb Chops",
+    "price": 17,
+    "farm": "Kirsop Farm",
+    "productUnit": "1lb",
+    "image": "./images/klamb.png" 
+   },
+
+   {
+    "productName": "Lamb Steaks",
+    "price": 17,
+    "farm": "Kirsop Farm",
+    "productUnit": "1lb",
+    "image": "./images/schicken.png" 
+   },
+
+   {
+    "productName": "Whole Chicken (w/o Head & Feet)",
+    "price": 66,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "6lbs",
+    "image": "./images/swholechicken.png" 
+   },
+
+   {
+    "productName": "Spicy Italian Sausage",
+    "price": 18,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "1lb",
+    "image": "./images/ssausage.png" 
+   },
+
+   {
+    "productName": "French Butter",
+    "price": 15,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "250g",
+    "image": "./images/sfrench.png" 
+   },
+
+   {
+    "productName": "Parmigiano Reggiano",
+    "price": 29,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "1lb",
+    "image": "./images/spar.png" 
+   },
+
+   {
+    "productName": "Sliced Basque Salami",
+    "price": 27.5,
+    "farm":"Sea Breeze Farm",
+    "productUnit": "8oz",
+    "image": "./images/ssliced.png" 
+   },
+
+   {
+    "productName": "George's Dijon Mustard",
+    "price": 20,
+    "farm": "Sea Breeze Farm",
+    "productUnit": "16oz",
+    "image": "./images/sgeo.png" 
+   }, 
+
+   {
+    "productName": "Heirloom & Cherry Tomatoes",
+    "price": 4,
+    "farm": "Nash's Organic Produce Farm",
+    "productUnit": "1lb",
+    "image": "./images/ntomato.png" 
+   },
+
+   {
+    "productName": "Bunched Carrots",
+    "price": 4,
+    "farm": "Nash's Organic Produce Farm",
+    "productUnit": "1 bunch",
+    "image": "./images/ncarrots.png" 
+   },
+   {
+      "productName": "Beef, Chuck",
+      "price": 16,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "2.5 lb",
+      "image": "./images/beefchuck.png"
+     },
+     {
+      "productName": "Lamb, Plate Ribs",
+      "price": 18,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "1 pack",
+      "image": "./images/lamb.png"
+     },
+     {
+      "productName": "Beef, Liver",
+      "price": 6,
+      "farm": "Mollie Bear Farm & Garden",
+      "productUnit": "1 each",
+      "image": "./images/beef,liver.png"
+     },
+     {
+      "productName": "Fresh Eggs",
+      "price": 3,
+      "farm": "Goat & Seed Family Farm",
+      "productUnit": "4 pack",
+      "image": "./images/freshegg.png"
+     },
+     {
+      "productName": "Seasonal Vegetable Box",
+      "price": 69,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 box",
+      "image": "./images/veggiebox.png"
+     },
+     {
+      "productName": "Carrots",
+      "price": 9.5,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 lb",
+      "image": "./images/fjfcarrots.png"
+     },
+     {
+      "productName": "Beets",
+      "price": 9.5,
+      "farm": "Farmer Jones Farm",
+      "productUnit": "1 lb",
+      "image": "./images/beets.png"
+     }
+]

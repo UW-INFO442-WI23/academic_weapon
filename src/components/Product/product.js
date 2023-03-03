@@ -4,7 +4,7 @@ import loupe from '../../loupe.svg';
 import sort from '../../sort.svg';
 import { useState } from 'react';
 import DEFAULT_DATA from '../../products.json';
-import { useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom';
 function Product() {
   const [sortFlag ,setSortFlag] = useState(true);
   const [initList,setInitList] = useState( DEFAULT_DATA)

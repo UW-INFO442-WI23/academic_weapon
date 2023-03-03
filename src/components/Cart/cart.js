@@ -1,5 +1,6 @@
 import '../../index.css';
 import {useSearchParams } from "react-router-dom";
+import { useNavigate} from 'react-router-dom'
  
 function Cart() {
     const [ params ] = useSearchParams()
@@ -14,6 +15,12 @@ function Cart() {
             newList.push(JSON.parse(item))
         })
     }
+    
+    const navigate = useNavigate()
+    const confirmationCallBack  = () => {
+        navigate('/Confirmation')
+    }
+
     return (
         <div className='cartbody row'>
             <div className='column left'>
@@ -73,7 +80,7 @@ function Cart() {
                 
                
                 <div className='checkout'>
-                    <button class="button-3" role="button">Submit</button>
+                    <button class="button-3" role="button"><span onClick={confirmationCallBack}>Submit</span></button>
                 </div>
             </div>
         </div>

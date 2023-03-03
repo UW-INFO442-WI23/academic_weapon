@@ -15,19 +15,19 @@ function About() {
                 <div className='impact1'>
                     <div className='impact1img center'></div>
                     <div className='subtitleText'>Impact 1</div>
-                    <p className='bodyText'>Impacting ...</p>
+                    <p className='bodyText'>Reduce your carbon footprint</p>
                 </div>
 
                 <div className='impact2'>
                     <div className='impact2img center'></div>
                     <div className='subtitleText'>Impact 2</div>
-                    <p className='bodyText'>Impacting ...</p>
+                    <p className='bodyText'>Support sustainability sourced, ethical farming practices </p>
                 </div>
 
                 <div className='impact3'>
                     <div className='impact3img center'></div>
                     <div className='subtitleText'>Impact 3</div>
-                    <p className='bodyText'>Impacting ...</p>
+                    <p className='bodyText'>Invest into local farmers and your community</p>
                 </div>
             </div>
 
@@ -64,7 +64,15 @@ function About() {
 
             <div>
                 <p className='titleText'>Related Resources</p>
-                <p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></p>
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/98UZ-Sltr9Y" title="The many benefits of local food">
+                </iframe>
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/4doYb2d2sTg" title="How to make produce last longer">
+                </iframe>
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/0VAIHZ-54dc" title="Food Insecurity in the US">
+                </iframe>
             </div>
         </div>
     )

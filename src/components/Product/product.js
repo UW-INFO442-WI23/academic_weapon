@@ -1,10 +1,10 @@
-import './Product.css';
+import '../../index.css';
 import cart from '../../cart.svg';
 import loupe from '../../loupe.svg';
 import sort from '../../sort.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import DEFAULT_DATA from '../../products.json';
-import { useNavigate} from 'react-router-dom';
+import { useNavigate ,useSearchParams } from 'react-router-dom';
 function Product() {
   const [sortFlag ,setSortFlag] = useState(true);
   const [initList,setInitList] = useState( DEFAULT_DATA)
@@ -12,6 +12,7 @@ function Product() {
   const [ProductName,setProductName] =useState('')
   const [cartList,setCartList] =useState([])
   const navigate = useNavigate()
+  const [ params ] = useSearchParams()
   const sortCallBack  = () =>{
     if( sortFlag == true ) {
       const newList = list
@@ -66,6 +67,21 @@ function Product() {
   }
   const aboutCallBack  = () =>{
     navigate('/About')
+    let newList =''
+    if(cartList.length > 0 ){
+      cartList.forEach((item ,index ) =>{
+        if(index == 0 ){
+          newList = newList + JSON.stringify(item)
+        }
+        else {
+          newList = newList + '?' + JSON.stringify(item)
+        }
+      })
+      newList = newList.replaceAll('&' ,'*')
+      navigate(`/About?cartList=${newList}`)
+    }else{
+      navigate(`/About?cartList='null'`)
+    }
   }
   const productCallBack  = () =>{
     navigate('/Product')
@@ -84,7 +100,7 @@ function Product() {
       newList = newList.replaceAll('&' ,'*')
       navigate(`/Cart?cartList=${newList}`)
     }else{
-      navigate(`/Cart?cartList=null`)
+      navigate(`/Cart?cartList='null'`)
     }
   }
   const cartCallBack  = ( item ) =>{
@@ -108,6 +124,26 @@ function Product() {
       setCartList([...cartList,{...item,count:1}])
     }
   }
+  useEffect(()=>{
+    let  productList = params.get('productList')
+    let newList =[]
+    if ( typeof productList =='object' && productList == null ){
+      return
+    }
+    else if(typeof productList =='string' && productList == ''){
+      return 
+    } 
+    else if(typeof productList =='string' && productList == "'null'"){
+      return 
+    } 
+    else{
+      productList =  productList.replaceAll('*','&').split('?')
+      productList.forEach((item)=>{
+      newList.push(JSON.parse(item))
+      })
+      setCartList(newList)
+    }
+  },[])
   return (
     <div className='body'>
       <div className='top'>

@@ -1,8 +1,15 @@
 import '../../index.css';
+import Navbar from '../NavBar/navbar';
+import { useEffect, useState } from 'react';
+import { useNavigate ,useSearchParams } from 'react-router-dom';
 
 function About() {
+    const [ params ] = useSearchParams()
+    const [newList ,setNewList] = useState([])
+    const [initList,setInitList] = useState([])
     return (
         <div className='aboutbody'>
+             <Navbar newList={newList}></Navbar>
             <div className='coverImage'></div>
 
             <div className='mission'>

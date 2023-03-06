@@ -1,35 +1,41 @@
 import '../../index.css';
 import {useSearchParams } from "react-router-dom";
-import { useNavigate} from 'react-router-dom';
-import React, { useState } from 'react';
-import Confirmation from '../Confirmation/confirmation';
+import { useNavigate} from 'react-router-dom'
+import Navbar from '../NavBar/navbar';
+import { useEffect, useState } from 'react';
  
 function Cart() {
     const [ params ] = useSearchParams()
-    const flag = params.get('cartList')
-    let newList =[]
-    let cartList =[]
-    let totalPrice = 0
-    if(flag !== 'null' ){
-        cartList =  flag.replaceAll('*','&').split('?')
-        cartList.forEach((item)=>{
-            totalPrice = totalPrice + JSON.parse(item).price
-            newList.push(JSON.parse(item))
-        })
-    }
-
+    const [totalPrice, setTotalPrice]  = useState()
+    const [newList, setNewList]  = useState([])
+    const [initList, setInitList]  = useState([])
     const [whichButton, setButton] = useState(0);
-
     const navigate = useNavigate()
     const confirmationCallBack  = () => {
-        // navigate('/Confirmation')
         if(whichButton != 0 ){
             navigate(`/Confirmation?pu=${whichButton}`)
+            setInitList([])
         }
     }
-
+    useEffect(()=>{
+        const initList = params.get('cartList')
+        let newList =[]
+        let cartList =[]
+        let totalPrice = 0
+        if(initList !== "'null'"  &&  initList !=='null'){
+            cartList =  initList.replaceAll('*','&').split('?')
+            cartList.forEach((item)=>{
+                totalPrice = totalPrice + JSON.parse(item).price
+                newList.push(JSON.parse(item))
+            })
+            setTotalPrice(totalPrice)
+            setInitList(initList)
+        }
+        setNewList(newList)
+    },[])
     return (
         <div className='cartbody row'>
+                <Navbar newList={initList}></Navbar>
             <div className='column left'>
                 <div className='pickup'>
                     <p className='cartTitle'>Pick-Up Location & Time</p>

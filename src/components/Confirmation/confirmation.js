@@ -1,5 +1,6 @@
 import '../../index.css';
 import { useSearchParams } from "react-router-dom";
+import Navbar from '../NavBar/navbar';
 
 function Confirmation() {
     const [ params ] = useSearchParams();
@@ -19,6 +20,7 @@ function Confirmation() {
 
     return (
         <div className='confirmationbody'>
+            <Navbar newList ={'null'}></Navbar>
             <div className='successImg center'></div>
             <p className='thankYouMessage'>Thank you for your order!</p>
             <p className='subMessage'>Order details were emailed to 123@gmail.com</p>

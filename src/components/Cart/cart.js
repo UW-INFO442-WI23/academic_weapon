@@ -1,6 +1,8 @@
 import '../../index.css';
 import {useSearchParams } from "react-router-dom";
-import { useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom';
+import React, { useState } from 'react';
+import Confirmation from '../Confirmation/confirmation';
  
 function Cart() {
     const [ params ] = useSearchParams()
@@ -10,15 +12,20 @@ function Cart() {
     let totalPrice = 0
     if(flag !== 'null' ){
         cartList =  flag.replaceAll('*','&').split('?')
-        cartList.forEach((item)=>{  
+        cartList.forEach((item)=>{
             totalPrice = totalPrice + JSON.parse(item).price
             newList.push(JSON.parse(item))
         })
     }
-    
+
+    const [whichButton, setButton] = useState(0);
+
     const navigate = useNavigate()
     const confirmationCallBack  = () => {
-        navigate('/Confirmation')
+        // navigate('/Confirmation')
+        if(whichButton != 0 ){
+            navigate(`/Confirmation?pu=${whichButton}`)
+        }
     }
 
     return (
@@ -26,15 +33,15 @@ function Cart() {
             <div className='column left'>
                 <div className='pickup'>
                     <p className='cartTitle'>Pick-Up Location & Time</p>
-                    <button class="button-3 pickupButton" role="button">
+                    <button onClick={() => setButton(1)} id="1" class="button-3 pickupButton" role="button">
                         <div>January 26 (10:00 - 16:00)</div>
                         <div>Seattle Community Center</div>
                     </button>
-                    <button class="button-3 pickupButton" role="button">
+                    <button onClick={() => setButton(2)} id="2"class="button-3 pickupButton" role="button">
                         <div>January 27 (10:00 - 16:00)</div>
                         <div>Safeway Northgate</div>
                     </button>
-                    <button class="button-3 pickupButton" role="button">
+                    <button onClick={() => setButton(3)} id="3" class="button-3 pickupButton" role="button">
                         <div>January 28 (10:00 - 16:00)</div>
                         <div>Seattle Community Center</div>
                     </button>
@@ -77,10 +84,11 @@ function Cart() {
                     </>:null
 
                 }
+
+                {/* <Confirmation confirmationCallBack = {whichButton}/> */}
                 
-               
                 <div className='checkout'>
-                    <button class="button-3" role="button"><span onClick={confirmationCallBack}>Submit</span></button>
+                    <button class="button-3" role="button" onClick={() => confirmationCallBack()}>Submit</button>
                 </div>
             </div>
         </div>

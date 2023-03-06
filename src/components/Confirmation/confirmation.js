@@ -1,6 +1,22 @@
 import '../../index.css';
+import { useSearchParams } from "react-router-dom";
 
 function Confirmation() {
+    const [ params ] = useSearchParams();
+    const flag = params.get('pu')
+    let putime = null;
+    let pulocation = null;
+    if (flag == 1) {
+        putime = "Jan 26 (10:00-16:00)"
+        pulocation = "Seattle Community Center"
+    } else if (flag == 2) {
+        putime = "Jan 27 (10:00-16:00)"
+        pulocation = "Safeway Northgate"
+    } else if (flag == 3) {
+        putime = "Jan 28 (10:00-16:00)"
+        pulocation = "Seattle Community Center"
+    }
+
     return (
         <div className='confirmationbody'>
             <div className='successImg center'></div>
@@ -9,8 +25,8 @@ function Confirmation() {
             <div className='pickupDetail'>
                 <div className='pickupMessage'>Pickup <br></br>Details:</div>
                 <div className='pickupConfirmation'>
-                    <div className='puDate'><p>Jan 26</p></div>
-                    <div className='puLocation'><p>Community Center</p></div>
+                    <div className='puDate'><p>{putime}</p></div>
+                    <div className='puLocation'><p>{pulocation}</p></div>
                 </div>
             </div>
         </div>

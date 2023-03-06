@@ -39,6 +39,15 @@
     color: black;
 }
 
+.impactBodyText {
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+
 .coverImage {
     margin: auto;
     background-image: url('../public/about.png');
@@ -64,7 +73,6 @@
 }
 
 .impact1 {
-
     margin-top: 10px;
     background-color: #F5F5F5;
     width: 340px;
@@ -79,7 +87,7 @@
     margin-bottom: 20px;
     width: 70px;
     height: 70px;
-    position: relative;
+    position: relative; 
 }
 
 .impact2 {
@@ -120,9 +128,7 @@
 
 .source {
     padding-top: 30px;
-
 }
-
 
 .item1 {
     flex-grow: 2;
@@ -139,7 +145,6 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 50px auto;
-
 }
 
 .howToOrder {
@@ -225,7 +230,6 @@
 .button-3:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
-
 }
 
 
@@ -396,8 +400,13 @@ textarea {
     flex-grow: 4;
     display: flex;
     border-style: solid;
-    margin-right: 200px;
+    margin-right: 100px;
     border-width: 0.1ch;
+}
+
+.divider {
+    font-style: bold;
+    font-size: 30px;
 }
 
 .puDate {
@@ -638,12 +647,12 @@ textarea {
     line-height: 50px;
     cursor: pointer;
 }
+
 .itemVo{
     /* background-color: gray; */
     height: 139px;
-   
-   
 }
+
 .itemVo1{
     padding-left: 20px;
     padding-top: 10px;

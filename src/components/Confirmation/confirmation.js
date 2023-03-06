@@ -28,6 +28,7 @@ function Confirmation() {
                 <div className='pickupMessage'>Pickup <br></br>Details:</div>
                 <div className='pickupConfirmation'>
                     <div className='puDate'><p>{putime}</p></div>
+                    <p className='divider'>/</p>
                     <div className='puLocation'><p>{pulocation}</p></div>
                 </div>
             </div>

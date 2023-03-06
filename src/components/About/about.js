@@ -22,19 +22,19 @@ function About() {
                 <div className='impact1'>
                     <div className='impact1img center'></div>
                     <div className='subtitleText'>Impact 1</div>
-                    <p className='bodyText'>Reduce your carbon footprint</p>
+                    <p className='impactBodyText'>Reduce your carbon footprint</p>
                 </div>
 
                 <div className='impact2'>
                     <div className='impact2img center'></div>
                     <div className='subtitleText'>Impact 2</div>
-                    <p className='bodyText'>Support sustainability sourced, ethical farming practices </p>
+                    <p className='impactBodyText'>Support sustainability sourced, ethical farming practices </p>
                 </div>
 
                 <div className='impact3'>
                     <div className='impact3img center'></div>
                     <div className='subtitleText'>Impact 3</div>
-                    <p className='bodyText'>Invest into local farmers and your community</p>
+                    <p className='impactBodyText'>Invest into local farmers and your community</p>
                 </div>
             </div>
 

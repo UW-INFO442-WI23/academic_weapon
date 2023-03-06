@@ -19,6 +19,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #D66565;
+    padding-top: 30px;
 
 }
 
@@ -58,9 +59,11 @@
     justify-content: center;
     gap: 45px;
     margin-top: 105px;
+   
 }
 
 .impact1 {
+
     margin-top: 10px;
     background-color: #F5F5F5;
     width: 340px;
@@ -114,8 +117,8 @@
     position: relative;
 }
 
-.sourceContainer {
-    /* display: flex; */
+.source {
+    padding-top: 30px;
 
 }
 
@@ -221,7 +224,9 @@
 .button-3:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+
 }
+
 
 /* cart page */
 

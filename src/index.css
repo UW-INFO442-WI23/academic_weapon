@@ -1,4 +1,6 @@
-.aboutbody, .cartbody, .confirmationbody{
+.aboutbody,
+.cartbody,
+.confirmationbody {
     width: 1280px;
     height: auto;
     margin: auto;
@@ -9,9 +11,9 @@
     margin: auto;
     width: 50%;
     padding: 0px;
-  }
+}
 
-.titleText{
+.titleText {
     font-size: 48px;
     text-align: center;
     font-weight: bold;
@@ -20,7 +22,7 @@
 
 }
 
-.subtitleText{
+.subtitleText {
     font-size: 32px;
     text-align: center;
     font-weight: bold;
@@ -35,26 +37,30 @@
     color: black;
 }
 
-.coverImage{
+.coverImage {
     margin: auto;
     background-image: url('../public/about.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    border-radius: 30px;
     margin-top: 10px;
     width: 1116px;
     height: 594px;
 }
 
-.missionDes{
+.missionDes {
     padding: 20px 130px;
 }
 
-.impacts{
+.impacts {
     display: flex;
     justify-content: center;
     gap: 45px;
     margin-top: 105px;
 }
 
-.impact1{
+.impact1 {
     margin-top: 10px;
     background-color: #F5F5F5;
     width: 340px;
@@ -63,7 +69,7 @@
     border-radius: 25px;
 }
 
-.impact1img{
+.impact1img {
     background-image: url('../public/vegetables1.png');
     margin-top: 50px;
     margin-bottom: 20px;
@@ -72,7 +78,7 @@
     position: relative;
 }
 
-.impact2{
+.impact2 {
     margin-top: 10px;
     background-color: #FFE9E9;
     width: 340px;
@@ -81,7 +87,7 @@
     border-radius: 25px;
 }
 
-.impact2img{
+.impact2img {
     background-image: url('../public/cabbage1.png');
     margin-top: 50px;
     margin-bottom: 20px;
@@ -90,7 +96,7 @@
     position: relative;
 }
 
-.impact3{
+.impact3 {
     margin-top: 10px;
     background-color: #FFFAE8;
     width: 340px;
@@ -99,7 +105,7 @@
     border-radius: 25px;
 }
 
-.impact3img{
+.impact3img {
     background-image: url('../public/farmer1.png');
     margin-top: 50px;
     margin-bottom: 20px;
@@ -108,27 +114,31 @@
     position: relative;
 }
 
-.sourceContainer{
-    display: flex;
+.sourceContainer {
+    /* display: flex; */
+
 }
 
-.item1{
+
+.item1 {
     flex-grow: 2;
     margin-left: 75px;
     margin-right: 30px;
     padding-top: 50px;
 }
 
-.sourceImg{
+.sourceImg {
     flex-grow: 1;
     background-image: url('../public/source.png');
     width: 383px;
     height: 438px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    margin: 50px auto;
+
 }
 
-.howToOrder{
+.howToOrder {
     display: flex;
     justify-content: center;
     gap: 45px;
@@ -136,84 +146,85 @@
     margin-bottom: 105px;
 }
 
-.searchImg{
+.searchImg {
     background-image: url('../public/searching1.png');
     width: 114px;
     height: 120px;
 }
 
-.compareImg{
+.compareImg {
     background-image: url('../public/compare1.png');
     width: 114px;
     height: 120px;
 }
 
-.selectImg{
+.selectImg {
     background-image: url('../public/flag1.png');
     width: 114px;
     height: 120px;
 }
 
-.sendImg{
+.sendImg {
     background-image: url('../public/distribution1.png');
     width: 114px;
     height: 120px;
 }
 
 .button-3 {
-  appearance: none;
-  background-color: #00880E;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  /* display: inline-block; */
-  display: block;
-  margin: 0 auto;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  /* vertical-align: middle; */
-  white-space: nowrap;
+    appearance: none;
+    background-color: #00880E;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    /* display: inline-block; */
+    display: block;
+    margin: 0 auto;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* vertical-align: middle; */
+    white-space: nowrap;
 }
 
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
-  box-shadow: none;
-  outline: none;
+    box-shadow: none;
+    outline: none;
 }
 
 .button-3:hover {
-  background-color: #2c974b;
+    background-color: #2c974b;
 }
 
 .button-3:focus {
-  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
-  outline: none;
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
 }
 
 .button-3:disabled {
-  background-color: #94d3a2;
-  border-color: rgba(27, 31, 35, .1);
-  color: rgba(255, 255, 255, .8);
-  cursor: default;
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
 }
 
 .button-3:active {
-  background-color: #298e46;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 /* cart page */
+
 .column {
     float: left;
 }
@@ -232,7 +243,7 @@
     clear: both;
 }
 
-.cartTitle{
+.cartTitle {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
@@ -240,7 +251,8 @@
     color: black;
 }
 
-.pickup, .payment{
+.pickup,
+.payment {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
@@ -248,7 +260,7 @@
     padding-bottom: 20px;
 }
 
-.pickupButton{
+.pickupButton {
     width: 85%;
     margin-bottom: 10px;
 }
@@ -261,7 +273,8 @@ textarea {
 .paymentInfo {
     margin-left: 50px;
 }
-.cartItems{
+
+.cartItems {
     position: relative;
     background-color: rgb(228 228 228 / 76%);
     width: 600px;
@@ -269,71 +282,83 @@ textarea {
     border-radius: 20px;
     margin-bottom: 15px
 }
-.cartItems1{
+
+.cartItems1 {
     position: absolute;
     font-size: large;
     top: 15px;
     left: 10px;
-    width:220px;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    overflow:hidden
+    width: 220px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
 }
-.cartItems2{
+
+.cartItems2 {
     position: absolute;
     top: 20px;
     right: 120px;
 
     font-size: medium;
 }
-.cartItems3{
+
+.cartItems3 {
     left: 10px;
     top: 60px;
     position: absolute;
     font-size: small;
 }
-.cartItems4{
+
+.cartItems4 {
     top: 15px;
     left: 300px;
     position: absolute;
     font-size: large;
 }
-.totalPriceTop{
+
+.totalPriceTop {
     width: 600px;
     height: 10px;
     border-bottom: 1px solid black;
 }
-.totalPrice{
+
+.totalPrice {
     width: 600px;
     height: 90px;
     position: relative;
 }
-.totalPriceLeft{
+
+.totalPriceLeft {
     position: absolute;
     top: 20px;
     left: 20px;
     font-size: medium;
 }
-.totalPriceRight{
+
+.totalPriceRight {
     position: absolute;
     top: 20px;
     right: 120px;
     font-size: medium;
 }
-.checkout{
+
+.checkout {
     position: absolute;
     bottom: 20px;
     right: 100px;
 }
+
 /* confirmation page */
-.successImg{
+.successImg {
     background-image: url('../public/Vector.png');
     width: 152px;
     height: 152px;
     margin-top: 150px;
 }
 
-.thankYouMessage, .subMessage, .pickupMessage{
+.thankYouMessage,
+.subMessage,
+.pickupMessage {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
@@ -343,24 +368,24 @@ textarea {
     margin-bottom: 25px;
 }
 
-.subMessage{
+.subMessage {
     font-size: 25px;
     font-weight: lighter;
     margin-bottom: 50px;
 }
 
-.pickupDetail{
+.pickupDetail {
     display: flex;
 }
 
-.pickupMessage{
+.pickupMessage {
     font-style: normal;
     text-align: left;
     flex-grow: 1;
     margin-left: 200px;
 }
 
-.pickupConfirmation{
+.pickupConfirmation {
     flex-grow: 4;
     display: flex;
     border-style: solid;
@@ -368,7 +393,7 @@ textarea {
     border-width: 0.1ch;
 }
 
-.puDate{
+.puDate {
     font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -376,11 +401,11 @@ textarea {
     flex-grow: 4;
 }
 
-.puDate p{
+.puDate p {
     text-align: center;
 }
 
-.puLocation{
+.puLocation {
     font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -388,54 +413,51 @@ textarea {
     flex-grow: 5;
 }
 
-.puLocation p{
+.puLocation p {
     text-align: center;
 }
 
 
 /*media*/
-@media (max-width: 1000px)
-{
+@media (max-width: 1000px) {
 
-    .impacts{
+    .impacts {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-    .howToOrder{
-        display: block;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    .sourceContainer{
+
+    .howToOrder {
         display: block;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-    .aboutbody{
+
+    .sourceContainer {
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .aboutbody {
         width: 100%;
     }
-    .coverImage{
-     width: 80%;
+
+    .coverImage {
+        margin: auto;
+
+        width: auto !important;
+
 
     }
-    
-}
-
-@media (max-width: 1500px)
-{
 
 }
 
-@media (min-width: 1000px)
-{
+@media (max-width: 1500px) {}
 
-  
-
-}
-
+@media (min-width: 1000px) {}

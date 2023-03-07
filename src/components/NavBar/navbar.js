@@ -46,7 +46,7 @@ function Navbar(props) {
                 <span className='fontNo' style={{color:'black'}}>King</span>        
             </div>
             <div className='rTittle'>  
-            <span className="fontTop" onClick={aboutCallBack}>About us</span>
+            <span className="fontTop" onClick={aboutCallBack}>About Us</span>
             </div>
             <div className='rTittle'> 
             <span className="fontTop" onClick={productCallBack} >Shopping</span>

@@ -96,7 +96,7 @@ function Cart() {
                     </div>
                     
                     <div className='checkout'>
-                        <button class="button-3" role="button" onClick={() => confirmationCallBack()}>Submit</button>
+                        <button class="otherButtons" role="button" onClick={() => confirmationCallBack()}>Submit</button>
                     </div>
                 </div>
             </div>

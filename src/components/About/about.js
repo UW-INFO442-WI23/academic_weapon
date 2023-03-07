@@ -4,19 +4,20 @@ import Footer from '../Footer/footer';
 import { useEffect, useState } from 'react';
 import { useNavigate ,useSearchParams } from 'react-router-dom';
 
+
 function About() {
     const [ params ] = useSearchParams()
     const [newList ,setNewList] = useState([])
     const [initList,setInitList] = useState([])
     return (
         <div className='aboutbody'>
-             <Navbar newList={newList}></Navbar>
+            <Navbar newList={newList}></Navbar>
             <div className='coverImage'></div>
 
             <div className='mission'>
                 <p className='titleText'>Our Mission</p>
                 <p className='bodyText missionDes'>Increase access to healthy and affordable produce in low-income, urban communities, focusing on our own local communities within King County in Washington State.</p>
-                <button className='button-3'><a href="https://www.un.org/sustainabledevelopment/hunger/">Explore</a></button>
+                <button className='otherButtons'><a href="https://www.un.org/sustainabledevelopment/hunger/">Explore</a></button>
             </div>
 
             <div className='impacts'>
@@ -72,15 +73,17 @@ function About() {
 
             <div>
                 <p className='titleText'>Related Resources</p>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/98UZ-Sltr9Y" title="The many benefits of local food">
-                </iframe>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/4doYb2d2sTg" title="How to make produce last longer">
-                </iframe>
-                <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/0VAIHZ-54dc" title="Food Insecurity in the US">
-                </iframe>
+                <div className='resourceVideos'>
+                    <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/98UZ-Sltr9Y" title="The many benefits of local food">
+                    </iframe>
+                    <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/4doYb2d2sTg" title="How to make produce last longer">
+                    </iframe>
+                    <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/0VAIHZ-54dc" title="Food Insecurity in the US">
+                    </iframe>
+                </div>
             </div>
             <Footer></Footer>
         </div>

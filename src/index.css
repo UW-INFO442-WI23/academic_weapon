@@ -363,9 +363,10 @@ textarea {
 
 .checkout {
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
     right: 100px;
 }
+
 
 /* confirmation page */
 .successImg {

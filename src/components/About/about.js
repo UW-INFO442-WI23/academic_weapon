@@ -12,7 +12,7 @@ function About() {
     return (
         <div className='aboutbody'>
             <Navbar newList={newList}></Navbar>
-            <div className='coverImage'></div>
+            <img src='about.png' alt='Tomatos in a bowl'className='coverImage' width='1280px' height='594px'></img>
 
             <div className='mission'>
                 <p className='titleText'>Our Mission</p>
@@ -47,7 +47,7 @@ function About() {
                         Our goal is to visit both private and public farms in King County to understand the needs of local farmers, test the quality of their produce, and ensure food security for our community. 
                         <br></br><br></br>We will be helping these farmers post their produce on our website to connect them with consumers. We are excited to work with the local farming community and help support their efforts to provide fresh and high-quality food to our community.”
                     </div>
-                    <div className='sourceImg'></div>
+                    <img src='source.png' alt='Purple grapes in hands' className='sourceCenter' width='383px' height='438px'></img>
                 </div>
             </div>
 

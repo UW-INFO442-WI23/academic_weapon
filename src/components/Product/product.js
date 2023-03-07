@@ -5,6 +5,8 @@ import sort from '../../sort.svg';
 import { useEffect, useState } from 'react';
 import DEFAULT_DATA from '../../products.json';
 import { useNavigate ,useSearchParams } from 'react-router-dom';
+import Footer from '../Footer/footer';
+
 function Product() {
   const [sortFlag ,setSortFlag] = useState(true);
   const [initList,setInitList] = useState( DEFAULT_DATA)
@@ -153,7 +155,7 @@ function Product() {
                 <span className='fontNo' style={{color:'black'}}>King</span>        
           </div>
           <div className='rTittle'>  
-            <span className="fontTop" onClick={aboutCallBack}>About us</span>
+            <span className="fontTop" onClick={aboutCallBack}>About Us</span>
           </div>
           <div className='rTittle'> 
             <span className="fontTop" onClick={productCallBack} >Shopping</span>
@@ -207,8 +209,8 @@ function Product() {
           }
         </div>
       </div>
-      <div className='bottom'>
-        <div> Nourish King</div>
+      <div>
+          <Footer></Footer>
       </div>
     </div>
   );

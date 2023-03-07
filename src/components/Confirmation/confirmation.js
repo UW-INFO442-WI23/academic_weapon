@@ -1,6 +1,7 @@
 import '../../index.css';
 import { useSearchParams } from "react-router-dom";
 import Navbar from '../NavBar/navbar';
+import Footer from '../Footer/footer';
 
 function Confirmation() {
     const [ params ] = useSearchParams();
@@ -32,6 +33,7 @@ function Confirmation() {
                     <div className='puLocation'><p>{pulocation}</p></div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import '../../index.css';
 import Navbar from '../NavBar/navbar';
+import Footer from '../Footer/footer';
 import { useEffect, useState } from 'react';
 import { useNavigate ,useSearchParams } from 'react-router-dom';
 
@@ -81,6 +82,7 @@ function About() {
                     src="https://www.youtube.com/embed/0VAIHZ-54dc" title="Food Insecurity in the US">
                 </iframe>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

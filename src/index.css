@@ -396,21 +396,27 @@ textarea {
 
 .pickupDetail {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .pickupMessage {
     font-style: normal;
+    font-size: 24px;
     text-align: left;
     flex-grow: 1;
     margin-left: 200px;
+    margin-top: 20px;
 }
 
 .pickupConfirmation {
     flex-grow: 4;
     display: flex;
-    border-style: solid;
+    border-style: none;
+    border-color: #7c7c7c;
+    border-radius: 10px;
     margin-right: 100px;
     border-width: 0.1ch;
+    background-color: #F5F5F5;
 }
 
 .divider {

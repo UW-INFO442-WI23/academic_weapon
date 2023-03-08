@@ -36,7 +36,7 @@ Our group generalized a hypothetical user flow that "guides" users through all o
 
 4. **Cart** <br>
     **a. Users can add products into the cart.** <br>
-    **_Successful Test:_** The add button will be tested to ensure that users can add products into their cart. This test will be considered successful if users can click the add button for a particular product and the cart icon will reflect the added amount. <br>
+    **_Successful Test:_** The add button will be tested to ensure that users can add products into their cart. This test will be considered successful if users can click the add button for a particular product and it is correctly listed in the cart page. <br>
     **_Failed Test:_** A failed test would occur if users can’t click the add button and see that reflected amount in their cart. <br>
 
     **b. Users can view the added items in the cart.** <br>
@@ -53,9 +53,9 @@ Our group generalized a hypothetical user flow that "guides" users through all o
     **_Failed Test:_** A failed test would occur if either the user can’t press the submit button, the confirmation page isn’t shown afterwards, and/or the confirmation page doesn’t reflect the right information. <br>
 
 ## Unit Tests (Backend)
-1. Application is accessible via piblic internet link.
+1. Application is accessible via public internet link.
 2. Application is responsive to various viewports (mobile & desktop screensizes).
-3. Application is bug-free when tested in desktop and mobile versions of Chrome
-4. Successfully completes acceptance tests 
+3. Application is bug-free when tested in desktop and mobile versions of Chrome.
+4. Successfully completes acceptance tests.
 
 

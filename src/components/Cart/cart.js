@@ -90,7 +90,7 @@ function Cart() {
                                 <>
                                     <div className='totalPriceTop'></div>
                                     <div className='totalPrice'>
-                                        <div className='totalPriceLeft' > ToTal</div>
+                                        <div className='totalPriceLeft' > Total</div>
                                         <div className='totalPriceRight'> ${totalPrice}</div>
                                     </div>
                                 </>:null

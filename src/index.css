@@ -62,7 +62,7 @@ a:active {
 }
 
 .impactBodyText {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -165,6 +165,7 @@ a:active {
 
 .resourceVideos {
     padding-bottom: 20px;
+    padding-bottom: 200px;
 }
 
 .howToOrder {
@@ -179,24 +180,32 @@ a:active {
     background-image: url('../public/searching1.png');
     width: 114px;
     height: 120px;
+    margin-bottom: 20px;
+    margin-left: 60px;
 }
 
 .compareImg {
     background-image: url('../public/compare1.png');
     width: 114px;
     height: 120px;
+    margin-bottom: 20px;
+    margin-left: 60px;
 }
 
 .selectImg {
     background-image: url('../public/flag1.png');
     width: 114px;
     height: 120px;
+    margin-bottom: 20px;
+    margin-left: 60px;
 }
 
 .sendImg {
     background-image: url('../public/distribution1.png');
     width: 114px;
     height: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .button-3 {

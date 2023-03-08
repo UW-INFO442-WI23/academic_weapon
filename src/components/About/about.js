@@ -24,19 +24,19 @@ function About() {
                 <div className='impacts'>
                     <div className='impact1'>
                         <div className='impact1img center'></div>
-                        <div className='subtitleText'>Impact 1</div>
+                        <div className='subtitleText'>Reduce</div>
                         <p className='impactBodyText'>Reduce your carbon footprint</p>
                     </div>
 
                     <div className='impact2'>
                         <div className='impact2img center'></div>
-                        <div className='subtitleText'>Impact 2</div>
+                        <div className='subtitleText'>Support</div>
                         <p className='impactBodyText'>Support sustainability sourced, ethical farming practices </p>
                     </div>
 
                     <div className='impact3'>
                         <div className='impact3img center'></div>
-                        <div className='subtitleText'>Impact 3</div>
+                        <div className='subtitleText'>Invest</div>
                         <p className='impactBodyText'>Invest into local farmers and your community</p>
                     </div>
                 </div>
@@ -56,19 +56,19 @@ function About() {
                 <div className='howToOrder'>
                     <div className='search'>
                         <div className='searchImg'></div>
-                        <div className='bodyText'>1. Search for produce</div>
+                        <div className='bodyText'>Search for produce ---</div>
                     </div>
                     <div className='compare'>
                         <div className='compareImg'></div>
-                        <div className='bodyText'>2. Compare & Select</div>
+                        <div className='bodyText'>---Compare & Select---</div>
                     </div>
                     <div className='select'>
                         <div className='selectImg'></div>
-                        <div className='bodyText'>3. Select  times & location</div>
+                        <div className='bodyText'>---Select  times & location---</div>
                     </div>
                     <div className='send'>
                         <div className='sendImg'></div>
-                        <div className='bodyText'>4. Send order</div>
+                        <div className='bodyText'>---Send order</div>
                     </div>
                 </div>
 

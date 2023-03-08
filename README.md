@@ -66,4 +66,4 @@ repositioned when the screen gets resized. This doesn't interfere with the funct
 application though. 
 
 # GitHub Pages
-The published site can be viewed here: **(update later)**
+The published site can be viewed here: [NourishKing Website](https://nourish-king.vercel.app/)

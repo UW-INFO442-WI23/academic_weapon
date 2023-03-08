@@ -317,24 +317,27 @@ textarea {
     background-color: rgb(228 228 228 / 76%);
     width: 600px;
     height: 90px;
-    border-radius: 20px;
-    margin-bottom: 15px
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 60px;;
 }
 
 .cartItems1 {
     position: absolute;
-    font-size: large;
+    font-size: medium;
     top: 15px;
     left: 10px;
     width: 220px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
 
 .cartItems2 {
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 120px;
 
     font-size: medium;
@@ -345,13 +348,17 @@ textarea {
     top: 60px;
     position: absolute;
     font-size: small;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .cartItems4 {
     top: 15px;
     left: 300px;
     position: absolute;
-    font-size: large;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .totalPriceTop {

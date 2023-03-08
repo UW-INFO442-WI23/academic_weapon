@@ -56,19 +56,19 @@ function About() {
                 <div className='howToOrder'>
                     <div className='search'>
                         <div className='searchImg'></div>
-                        <div className='bodyText'>Search for produce ---</div>
+                        <div className='bodyText'>1. Search for produce</div>
                     </div>
                     <div className='compare'>
                         <div className='compareImg'></div>
-                        <div className='bodyText'>---Compare & Select---</div>
+                        <div className='bodyText'>2. Compare & Select</div>
                     </div>
                     <div className='select'>
                         <div className='selectImg'></div>
-                        <div className='bodyText'>---Select  times & location---</div>
+                        <div className='bodyText'>3. Select time & location</div>
                     </div>
                     <div className='send'>
                         <div className='sendImg'></div>
-                        <div className='bodyText'>---Send order</div>
+                        <div className='bodyText'>4. Submit order</div>
                     </div>
                 </div>
 

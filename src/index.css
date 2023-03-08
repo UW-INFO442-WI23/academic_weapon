@@ -52,6 +52,7 @@ a:active {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin: auto;
 }
 
 .bodyText {
@@ -67,7 +68,8 @@ a:active {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin-left: 50px;
-    margin-right: 50px;   
+    margin-right: 50px;
+    margin-bottom: ;
 }
 
 .coverImage {
@@ -180,32 +182,36 @@ a:active {
     background-image: url('../public/searching1.png');
     width: 114px;
     height: 120px;
-    margin-bottom: 20px;
-    margin-left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .compareImg {
     background-image: url('../public/compare1.png');
     width: 114px;
     height: 120px;
-    margin-bottom: 20px;
-    margin-left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .selectImg {
     background-image: url('../public/flag1.png');
     width: 114px;
     height: 120px;
-    margin-bottom: 20px;
-    margin-left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sendImg {
     background-image: url('../public/distribution1.png');
     width: 114px;
     height: 120px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-3 {

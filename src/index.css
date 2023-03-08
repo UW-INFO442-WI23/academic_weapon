@@ -1085,4 +1085,32 @@ footer {
         right: auto;
         margin-top: 80px;
     }
+    .totalPriceTop {
+        width: 300px;
+    }
+    .totalPrice{
+        width: 350px;
+    }
+    .confirmationbody{
+        width: auto;
+    }
+    .pickupMessage{
+        margin-left: 0px;
+    }
+    .puDate, .puLocation, .divider {
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    .pickupConfirmation{
+        margin-right: 0px;
+    }
+    .thankYouMessage, .subMessage, .pickupMessage {
+        font-size: 25px;
+    }
+    .subMessage, .pickupMessage {
+        font-size: 20px;
+    }
+    .pickupDetail{
+        margin-bottom: 100px;
+    }
 }

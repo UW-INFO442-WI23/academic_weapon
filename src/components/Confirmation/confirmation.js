@@ -21,8 +21,8 @@ function Confirmation() {
 
     return (
         <div className='confirmationWhole'>
+            <Navbar newList ={'null'}></Navbar>
             <div className='confirmationbody'>
-                <Navbar newList ={'null'}></Navbar>
                 <div className='successImg center'></div>
                 <p className='thankYouMessage'>Thank you for your order!</p>
                 <p className='subMessage'>Order details were emailed to 123@gmail.com</p>

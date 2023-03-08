@@ -63,6 +63,8 @@ function Cart() {
                         <textarea></textarea>
                         <p className='paymentInfo'>Billing Address</p>
                         <textarea></textarea>
+                        <p className='paymentInfo'>Email Address</p>
+                        <textarea></textarea>
                         <p className='paymentInfo'>Expiration Date</p>
                         <textarea></textarea>
                         <p className='paymentInfo'>CVV</p>

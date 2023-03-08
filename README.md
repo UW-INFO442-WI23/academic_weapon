@@ -61,9 +61,11 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i3
 2. Pick up time, email sent, extra details
 
 # Known Bugs & Workarounds
-1. Responsive Code: There are some workarounds in terms of images/items getting resized and/or 
+1. **Responsive Code:** There are some workarounds in terms of images/items getting resized and/or 
 repositioned when the screen gets resized. This doesn't interfere with the functionality of our 
-application though. 
+application though.
+2. **Navigating from Cart to About Us Page:** When products are in the cart, a user can click back and forth from "Shopping" to "Cart" without clearing the products in the users checkout cart. However, if a user with products in their cart go from "Cart" to "About Us" and back to "Cart", products in their checkout cart will be cleared. If given more time, we would implement a way for information to be stored (e.g. creating User profiles with product information saved for that particular user).
+3. **Cart Page:** When users select appropriate pick-up location and time, their selection is highlighted. However, when they move to click into the payment checkout information, the green visual indicator disappears. This doesn't interfere with functionality (their pick up location and time is still saved even if no longer highlighted).
 
 # GitHub Pages
 The published site can be viewed here: [NourishKing Website](https://nourish-king.vercel.app/)

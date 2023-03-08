@@ -98,13 +98,33 @@ a:active {
     border-radius: 25px;
 }
 
-.impact1img {
-    background-image: url('../public/vegetables1.png');
+.imgOne {
+    width: 70px;
+    height: 70px;
     margin-top: 50px;
     margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.imgTwo {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+
+.imgThree {
     width: 70px;
     height: 70px;
     position: relative; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 130px;
 }
 
 .impact2 {
@@ -116,14 +136,6 @@ a:active {
     border-radius: 25px;
 }
 
-.impact2img {
-    background-image: url('../public/cabbage1.png');
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 70px;
-    height: 70px;
-    position: relative;
-}
 
 .impact3 {
     margin-top: 10px;
@@ -134,14 +146,6 @@ a:active {
     border-radius: 25px;
 }
 
-.impact3img {
-    background-image: url('../public/farmer1.png');
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 70px;
-    height: 70px;
-    position: relative;
-}
 
 .source {
     padding-top: 30px;
@@ -176,27 +180,39 @@ a:active {
 }
 
 .searchImg {
-    background-image: url('../public/searching1.png');
     width: 114px;
     height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    justify-content: center;
 }
 
 .compareImg {
-    background-image: url('../public/compare1.png');
     width: 114px;
     height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    justify-content: center;
 }
 
 .selectImg {
-    background-image: url('../public/flag1.png');
     width: 114px;
     height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    justify-content: center;
 }
 
 .sendImg {
-    background-image: url('../public/distribution1.png');
     width: 114px;
     height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    justify-content: center;
 }
 
 .button-3 {
@@ -742,7 +758,6 @@ footer {
 
 /*media*/
 @media (max-width: 1000px) {
-
     .impacts {
         display: block;
         margin-left: auto;

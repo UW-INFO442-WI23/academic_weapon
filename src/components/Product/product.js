@@ -188,7 +188,7 @@ function Product() {
               list.map( (item,index)  => (
                 (index+1)%4 !== 0 ?
                 <div className='item' key={index}>
-                  <img className='itemImg' src= {require(''+item.image)}></img>
+                  <img className='itemImg' src= {require(''+item.image)} alt={item.productName}></img>
                   <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
                   <div className='itemVo'>
                     <div  className='itemVo1'>{item.productName}</div>
@@ -197,7 +197,7 @@ function Product() {
                   </div>
                 </div>  : 
                 <div className='item4' key={index}>
-                  <img className='itemImg' src= {require(''+item.image)}></img>
+                  <img className='itemImg' src= {require(''+item.image)} alt={item.productName}></img>
                   <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
                   <div className='itemVo'>
                   <div  className='itemVo1'>{item.productName}</div>

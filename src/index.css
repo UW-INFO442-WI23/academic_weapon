@@ -843,9 +843,9 @@ footer {
         flex: 2;
         position: relative;
     }
-    .impact1, .impact2, .impact3 {
+    /* .impact1, .impact2, .impact3 {
         width: 280px;
-    }
+    } */
     .missionDes {
         padding: 0;
     }

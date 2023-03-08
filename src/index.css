@@ -335,8 +335,9 @@ textarea {
     background-color: rgb(228 228 228 / 76%);
     width: 600px;
     height: 90px;
-    border-radius: 20px;
-    margin-bottom: 15px
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top:60px;
 }
 
 .cartItems1 {
@@ -566,7 +567,7 @@ textarea {
     background-image: url('../public/fruit.png');
     background-repeat:no-repeat;
     margin-top: 10px;
-    width: 1116px;
+    width: 1280px;
     height: 594px;
     background-size: 100% 100%;
     margin-bottom: 40px;
@@ -606,7 +607,7 @@ textarea {
 .loupe{
     position: absolute;
     bottom: 3px;
-    left: 810px;
+    left: 900px;
     width: 30px;
 }
 .input{

@@ -60,11 +60,11 @@ function Cart() {
                             <p className='cartTitle'>Payment Checkout</p>
                             <p className='paymentInfo'>Full Name</p>
                             <textarea></textarea>
+                            <p className='paymentInfo'>Email Address</p>
+                            <textarea></textarea>
                             <p className='paymentInfo'>Card Number</p>
                             <textarea></textarea>
                             <p className='paymentInfo'>Billing Address</p>
-                            <textarea></textarea>
-                            <p className='paymentInfo'>Email Address</p>
                             <textarea></textarea>
                             <p className='paymentInfo'>Expiration Date</p>
                             <textarea></textarea>

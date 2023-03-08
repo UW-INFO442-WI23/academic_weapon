@@ -25,7 +25,7 @@ We chose to narrow down our focus on increasing access to healthy and affordable
 
 
 
->>Research:
+>Research:
 Ref: Healthy Food: Accessibility Across the Urban United States How Disparities in Food Access and Elevated Risks of Preventable Disease Occur and Possible Solutions
 
 https://kingcounty.gov/elected/executive/constantine/initiatives/local-food-initiative/System.aspx
@@ -60,6 +60,10 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i3
 1. Allows users to see confirmation of their purchase sent to their email
 2. Pick up time, email sent, extra details
 
+- ** Known Bugs & Workarounds**
+1. Responsive Code: There are some workarounds in terms of images/items getting resized and/or 
+repositioned when the screen gets resized. This doesn't interfere with the functionality of our 
+application though. 
 
 # GitHub Pages
 The published site can be viewed here: **(update later)**

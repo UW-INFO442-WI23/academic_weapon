@@ -49,7 +49,7 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i3
 1. Navigate through top nav bar
 2. Allows users to search products using key term(s)
 3. Allows users to sort results by price
-4. User adds products to cart: User  clicks "add" button same number of times for product quantity → price reflects that change 
+4. User adds products to cart: User  clicks "add" button same number of times for product quantity → price reflects that change in cart
 
 - **My Cart Page**
 1. Accessed by clicking on “My Cart” icon to view all products in cart before checking out
@@ -57,7 +57,7 @@ https://www.annualreviews.org/doi/full/10.1146/annurev-environ-101718-033228#_i3
 3. Inputs payment method
 
 - **Order Confirmation/Thank You Page**
-1. Allows users to see the order summary of their purchase/confirmation sent to their email
+1. Allows users to see confirmation of their purchase sent to their email
 2. Pick up time, email sent, extra details
 
 

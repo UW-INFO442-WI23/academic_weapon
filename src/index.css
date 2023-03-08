@@ -731,6 +731,15 @@ textarea {
     bottom: 0;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(0, 128, 6);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
 /*media*/
 @media (max-width: 1000px) {
 
@@ -749,32 +758,14 @@ textarea {
         width: 50%;
     }
 
-    .sourceContainer {
-        display: block;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
     .aboutbody {
         width: 100%;
     }
 
     .coverImage {
         margin: auto;
-
         width: auto !important;
-
-
     }
-
-}
-
-/*media*/
-@media (max-width: 1000px)
-{
-
     .impacts{
         display: block;
         margin-left: auto;
@@ -793,7 +784,7 @@ textarea {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
 
     .left {
@@ -818,7 +809,6 @@ textarea {
 @media (max-width: 1000px)
 {
     .body {
-       
         width: 100%;
     }
     .topButton{
@@ -839,6 +829,12 @@ textarea {
         height: 100%;
         flex: 2;
         position: relative;
+    }
+    .impact1, .impact2, .impact3 {
+        width: 280px;
+    }
+    .missionDes {
+        padding: 0;
     }
     .cart{
         padding-top: 2px;
@@ -1052,21 +1048,4 @@ textarea {
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
     }
-}
-
-@media (max-width: 1500px)
-{
-}
-
-@media (min-width: 1000px)
-{
-}
-
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color:rgb(0, 128, 6);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;
 }

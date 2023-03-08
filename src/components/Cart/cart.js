@@ -36,9 +36,8 @@ function Cart() {
     },[])
     return (
         <div className="cartWhole">
-              
-            <div className='cartbody'>
             <Navbar newList={initList}></Navbar>
+            <div className='cartbody'>
                 <div className='cartbody row'>
                     <div className='column left'>
                         <div className='pickup'>

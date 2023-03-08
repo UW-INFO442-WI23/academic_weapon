@@ -1,6 +1,4 @@
 
-![Image](/img/logo.jpg)
-
 - Group 6 – Academic Weapons
 - Group members: Franchezca L, Mengying J, Kelsey L, Yeary Y, & Chenyang T
 

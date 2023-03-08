@@ -161,7 +161,10 @@
     margin-right: auto;
     max-width: 100%; 
     height: auto;
+}
 
+.resourceVideos {
+    padding-bottom: 20px;
 }
 
 .howToOrder {
@@ -821,4 +824,5 @@ footer {
     background-color:rgb(0, 128, 6);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
 }

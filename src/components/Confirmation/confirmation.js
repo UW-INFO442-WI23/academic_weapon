@@ -20,21 +20,24 @@ function Confirmation() {
     }
 
     return (
-        <div className='confirmationbody'>
-            <Navbar newList ={'null'}></Navbar>
-            <div className='successImg center'></div>
-            <p className='thankYouMessage'>Thank you for your order!</p>
-            <p className='subMessage'>Order details were emailed to 123@gmail.com</p>
-            <div className='pickupDetail'>
-                <div className='pickupMessage'>Pickup <br></br>Details:</div>
-                <div className='pickupConfirmation'>
-                    <div className='puDate'><p>{putime}</p></div>
-                    <p className='divider'>/</p>
-                    <div className='puLocation'><p>{pulocation}</p></div>
+        <div className='confirmationWhole'>
+            <div className='confirmationbody'>
+                <Navbar newList ={'null'}></Navbar>
+                <div className='successImg center'></div>
+                <p className='thankYouMessage'>Thank you for your order!</p>
+                <p className='subMessage'>Order details were emailed to 123@gmail.com</p>
+                <div className='pickupDetail'>
+                    <div className='pickupMessage'>Pickup <br></br>Details:</div>
+                    <div className='pickupConfirmation'>
+                        <div className='puDate'><p>{putime}</p></div>
+                        <p className='divider'>/</p>
+                        <div className='puLocation'><p>{pulocation}</p></div>
+                    </div>
                 </div>
             </div>
-            <Footer></Footer>
+        <Footer></Footer>
         </div>
+
     );
 }
 

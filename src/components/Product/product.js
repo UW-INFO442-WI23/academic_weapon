@@ -147,72 +147,75 @@ function Product() {
     }
   },[])
   return (
-    <div className='body'>
-      <div className='top'>
-        <div className='topButton'>
-          <div className='tittle'>      
-                <span  className='fontNo'>Nourish</span>
-                <span className='fontNo' style={{color:'black'}}>King</span>        
-          </div>
-          <div className='rTittle'>  
-            <span className="fontTop" onClick={aboutCallBack}>About Us</span>
-          </div>
-          <div className='rTittle'> 
-            <span className="fontTop" onClick={productCallBack} >Shopping</span>
-          </div>
-          <div className='cart' >  
-            <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart} width='30px' height= '30px' ></img></span>
-          </div>
-        </div>
-        <div className='backgroundImg'>
-            <div className='backgroundTittle1'>
-               Farm fresh & budget friendly
+    <div className='productWhole'>
+      <div className='body'>
+        <div className='top'>
+          <div className='topButton'>
+            <div className='tittle'>      
+                  <span  className='fontNo'>Nourish</span>
+                  <span className='fontNo' style={{color:'black'}}>King</span>        
             </div>
-            <div className='backgroundTittle2'>
-                healthy produce for all
+            <div className='rTittle'>  
+              <span className="fontTop" onClick={aboutCallBack}>About Us</span>
             </div>
-            <div className='backgroundTittle3'>
-              <input className='input' id='input' onKeyDown={keyDownCallBack} placeholder='Product Name'></input>
-                <img  className='loupe' src={loupe} width='30px' height= '30px' onClick={searchCallBack} ></img>
+            <div className='rTittle'> 
+              <span className="fontTop" onClick={productCallBack} >Shopping</span>
+            </div>
+            <div className='cart' >  
+              <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart} width='30px' height= '30px' ></img></span>
+            </div>
+          </div>
+          <div className='backgroundImg'>
+              <div className='backgroundTittle1'>
+                Farm fresh & budget friendly
               </div>
+              <div className='backgroundTittle2'>
+                  healthy produce for all
+              </div>
+              <div className='backgroundTittle3'>
+                <input className='input' id='input' onKeyDown={keyDownCallBack} placeholder='Product Name'></input>
+                  <img  className='loupe' src={loupe} width='30px' height= '30px' onClick={searchCallBack} ></img>
+                </div>
+          </div>
         </div>
-      </div>
-      <div className='middle' >
-        <div className='middleButton'>
-          <div  className='midBut1' > <span className='but1'> {ProductName == '' ? 'All Products': ProductName } </span></div>
-          <div className='midBut2'><span className='but2'>Price</span>    <img  onClick={sortCallBack} className= {sortFlag == true  ? 'sort' :'sort1'} src={sort} width='30px' height= '30px' ></img></div>    
-        </div>
-        <div className='productItems'>
-          {
-            list.map( (item,index)  => (
-              (index+1)%4 !== 0 ?
-              <div className='item' key={index}>
-                <img className='itemImg' src= {require(''+item.image)}></img>
-                <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
-                <div className='itemVo'>
+        <div className='middle' >
+          <div className='middleButton'>
+            <div  className='midBut1' > <span className='but1'> {ProductName == '' ? 'All Products': ProductName } </span></div>
+            <div className='midBut2'><span className='but2'>Price</span>    <img  onClick={sortCallBack} className= {sortFlag == true  ? 'sort' :'sort1'} src={sort} width='30px' height= '30px' ></img></div>    
+          </div>
+          <div className='productItems'>
+            {
+              list.map( (item,index)  => (
+                (index+1)%4 !== 0 ?
+                <div className='item' key={index}>
+                  <img className='itemImg' src= {require(''+item.image)}></img>
+                  <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
+                  <div className='itemVo'>
+                    <div  className='itemVo1'>{item.productName}</div>
+                    <div  className='itemVo2'>${item.price}<span className='itemVoUnit'>{item.productUnit}</span></div>
+                    <div  className='itemVo3'>{item.farm}</div>
+                  </div>
+                </div>  : 
+                <div className='item4' key={index}>
+                  <img className='itemImg' src= {require(''+item.image)}></img>
+                  <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
+                  <div className='itemVo'>
                   <div  className='itemVo1'>{item.productName}</div>
                   <div  className='itemVo2'>${item.price}<span className='itemVoUnit'>{item.productUnit}</span></div>
                   <div  className='itemVo3'>{item.farm}</div>
                 </div>
-              </div>  : 
-              <div className='item4' key={index}>
-                 <img className='itemImg' src= {require(''+item.image)}></img>
-                 <div className='add' onClick={()=>{cartCallBack(item,index)}}>+</div>
-                <div className='itemVo'>
-                <div  className='itemVo1'>{item.productName}</div>
-                <div  className='itemVo2'>${item.price}<span className='itemVoUnit'>{item.productUnit}</span></div>
-                <div  className='itemVo3'>{item.farm}</div>
-              </div>
-              </div>              
-            )
-            )
-          }
+                </div>              
+              )
+              )
+            }
+          </div>
+        </div>
+        <div>
         </div>
       </div>
-      <div>
-          <Footer></Footer>
-      </div>
+      <Footer></Footer>
     </div>
+
   );
 }
 export default Product;

@@ -147,7 +147,7 @@ function Product() {
     }
   },[])
   return (
-    <div className='productWhole'>
+   <>
       <div className='body'>
         <div className='top'>
           <div className='topButton'>
@@ -162,7 +162,7 @@ function Product() {
               <span className="fontTop" onClick={productCallBack} >Shopping</span>
             </div>
             <div className='cart' >  
-              <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart} width='30px' height= '30px' ></img></span>
+              <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart}  ></img></span>
             </div>
           </div>
           <div className='backgroundImg'>
@@ -174,14 +174,14 @@ function Product() {
               </div>
               <div className='backgroundTittle3'>
                 <input className='input' id='input' onKeyDown={keyDownCallBack} placeholder='Product Name'></input>
-                  <img  className='loupe' src={loupe} width='30px' height= '30px' onClick={searchCallBack} ></img>
+                  <img  className='loupe' src={loupe} onClick={searchCallBack} ></img>
                 </div>
           </div>
         </div>
         <div className='middle' >
           <div className='middleButton'>
             <div  className='midBut1' > <span className='but1'> {ProductName == '' ? 'All Products': ProductName } </span></div>
-            <div className='midBut2'><span className='but2'>Price</span>    <img  onClick={sortCallBack} className= {sortFlag == true  ? 'sort' :'sort1'} src={sort} width='30px' height= '30px' ></img></div>    
+            <div className='midBut2'><span className='but2'>Price</span>    <img  onClick={sortCallBack} className= {sortFlag == true  ? 'sort' :'sort1'} src={sort}  ></img></div>    
           </div>
           <div className='productItems'>
             {
@@ -214,7 +214,7 @@ function Product() {
         </div>
       </div>
       <Footer></Footer>
-    </div>
+      </>
 
   );
 }

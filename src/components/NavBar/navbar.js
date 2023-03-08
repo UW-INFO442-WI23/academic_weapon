@@ -52,7 +52,7 @@ function Navbar(props) {
             <span className="fontTop" onClick={productCallBack} >Shopping</span>
             </div>
             <div className='cart' >  
-            <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart} width='30px' height= '30px' ></img></span>
+            <span className="fontTop"  onClick={shopCallBack}><img  className='cartImg' src={cart}  ></img></span>
             </div>
       </div>
     )

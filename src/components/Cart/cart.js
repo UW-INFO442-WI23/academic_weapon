@@ -26,7 +26,7 @@ function Cart() {
         if(initList !== "'null'"  &&  initList !=='null'){
             cartList =  initList.replaceAll('*','&').split('?')
             cartList.forEach((item)=>{
-                totalPrice = totalPrice + JSON.parse(item).price
+                totalPrice = totalPrice + JSON.parse(item).price * JSON.parse(item).count
                 newList.push(JSON.parse(item))
             })
             setTotalPrice(totalPrice)
@@ -36,9 +36,10 @@ function Cart() {
     },[])
     return (
         <div className="cartWhole">
+              
             <div className='cartbody'>
+            <Navbar newList={initList}></Navbar>
                 <div className='cartbody row'>
-                        <Navbar newList={initList}></Navbar>
                     <div className='column left'>
                         <div className='pickup'>
                             <p className='cartTitle'>Pick-Up Location & Time</p>

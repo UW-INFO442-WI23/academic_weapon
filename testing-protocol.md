@@ -2,7 +2,7 @@
 - Group members: Franchezca L, Mengying J, Kelsey L, Yeary Y, & Chenyang T
 
 # Testing Protocol
-Instructions detailing how to test application via frontend (user accentapnce tests) and backend (unit tests).
+Instructions detailing how to test our application on web and mobile browsers.
 
 ## Accentance Tests (Frontend)
 Our group generalized a hypothetical user flow that "guides" users through all of NourishKing's key features.
@@ -53,37 +53,9 @@ Our group generalized a hypothetical user flow that "guides" users through all o
     **_Failed Test:_** A failed test would occur if either the user can’t press the submit button, the confirmation page isn’t shown afterwards, and/or the confirmation page doesn’t reflect the right information. <br>
 
 ## Unit Tests (Backend)
+1. Application is accessible via piblic internet link.
+2. Application is responsive to various viewports (mobile & desktop screensizes).
+3. Application is bug-free when tested in desktop and mobile versions of Chrome
+4. Successfully completes acceptance tests 
 
-**Key Features**
-1. **Search** <br>
-    **a. Users can search for products** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_**
 
-2. **Nav Bar** <br>
-    **a. Users can navigate through pages using the navigation bar.** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_** 
-
-3. **Sort** <br>
-    **a. Users can sort by price** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_**
-
-4. **Cart**
-    **a. Users can add products into the cart.** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_** <br>
-
-    **b. Users can view the added items in the cart.** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_** 
-
-5. **Checkout** <br>
-    **a. Users can select the date and location to pick up.** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_** <br>
-
-    **b. Users can checkout.** <br>
-    **_Successful Test:_** <br>
-    **_Failed Test:_**

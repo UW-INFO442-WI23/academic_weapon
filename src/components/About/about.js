@@ -18,7 +18,7 @@ function About() {
                 <div className='mission'>
                     <p className='titleText'>Our Mission</p>
                     <p className='bodyText missionDes'>Increase access to healthy and affordable produce in low-income, urban communities, focusing on our own local communities within King County in Washington State.</p>
-                    <button className='otherButtons'><a href="https://www.un.org/sustainabledevelopment/hunger/">Explore</a></button>
+                    <button className='otherButtons'><a href="https://www.un.org/sustainabledevelopment/hunger/" target="_blank">Explore</a></button>
                 </div>
 
                 <div className='impacts'>

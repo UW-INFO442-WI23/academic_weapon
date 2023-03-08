@@ -13,7 +13,7 @@ function About() {
         <div className="aboutWhole">
             <div className='aboutbody'>
                 <Navbar newList={newList}></Navbar>
-                <img src='about.png' alt='Tomatos in a bowl'className='coverImage' width='1280px' height='594px'></img>
+                <img src='about.png' alt='Tomatos in a bowl' className='coverImage' width='1280px' height='594px'></img>
 
                 <div className='mission'>
                     <p className='titleText'>Our Mission</p>

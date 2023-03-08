@@ -29,6 +29,9 @@
     color: white;
     padding: 6px 16px;
 }
+.item{
+    height: 300px;
+}
 
 a:link,
 a:visited,
@@ -1002,7 +1005,7 @@ footer {
         margin-top: 20px;
         margin-right: 15px;
         width: 130px;
-        height: 311px;
+        height: 220px;
         position: relative;
         border-radius: 16px;
         background-color: rgba(209, 207, 207, 0.589);
@@ -1012,7 +1015,7 @@ footer {
         margin-top: 20px;
         margin-right: 15px;
         width: 130px;
-        height: 311px;
+        height: 220px;
         position: relative;
         border-radius: 16px;
         background-color: rgba(209, 207, 207, 0.589);
@@ -1020,7 +1023,7 @@ footer {
     .itemImg{
         /* margin-top: 10px; */
         width: 130px;
-        height: 200px;
+        height: 130px;
         overflow:hidden;
         border-radius: 16px 16px 0 0;
     }

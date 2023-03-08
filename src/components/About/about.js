@@ -23,19 +23,19 @@ function About() {
 
                 <div className='impacts'>
                     <div className='impact1'>
-                        <div className='impact1img center'></div>
+                        <img src='vegetables1.png' alt='a basket with vegetables' className='imgOne'></img>
                         <div className='subtitleText'>Impact 1</div>
                         <p className='impactBodyText'>Reduce your carbon footprint</p>
                     </div>
 
                     <div className='impact2'>
-                        <div className='impact2img center'></div>
+                        <img src='cabbage1.png' alt='a green cabbage' className='imgTwo'></img>
                         <div className='subtitleText'>Impact 2</div>
                         <p className='impactBodyText'>Support sustainability sourced, ethical farming practices </p>
                     </div>
 
                     <div className='impact3'>
-                        <div className='impact3img center'></div>
+                        <img src='farmer1.png' alt='a farmer in overalls' className='imgThree'></img>
                         <div className='subtitleText'>Impact 3</div>
                         <p className='impactBodyText'>Invest into local farmers and your community</p>
                     </div>
@@ -55,19 +55,19 @@ function About() {
                 <p className='titleText'>How To Order</p>
                 <div className='howToOrder'>
                     <div className='search'>
-                        <div className='searchImg'></div>
+                        <img src='searching1.png' alt='a web interface with a magnifying glass' className='searchImg'></img>
                         <div className='bodyText'>1. Search for produce</div>
                     </div>
                     <div className='compare'>
-                        <div className='compareImg'></div>
+                        <img src='compare1.png' alt='a person choosing between A and B' className='compareImg'></img>
                         <div className='bodyText'>2. Compare & Select</div>
                     </div>
                     <div className='select'>
-                        <div className='selectImg'></div>
+                        <img src='flag1.png' alt='a blue flag' className='selectImg'></img>
                         <div className='bodyText'>3. Select  times & location</div>
                     </div>
                     <div className='send'>
-                        <div className='sendImg'></div>
+                        <img src='distribution1.png' alt='a truck with location icons' className='sendImg'></img>
                         <div className='bodyText'>4. Send order</div>
                     </div>
                 </div>

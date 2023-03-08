@@ -62,7 +62,7 @@ a:active {
 }
 
 .impactBodyText {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -168,7 +168,7 @@ a:active {
 }
 
 .resourceVideos {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .howToOrder {
@@ -333,8 +333,10 @@ textarea {
     background-color: rgb(228 228 228 / 76%);
     width: 600px;
     height: 90px;
-    border-radius: 20px;
-    margin-bottom: 15px
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top:60px;
+
 }
 
 .cartItems1 {
@@ -345,14 +347,15 @@ textarea {
     width: 220px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cartItems2 {
     position: absolute;
     top: 20px;
     right: 120px;
-
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 
@@ -361,6 +364,7 @@ textarea {
     top: 60px;
     position: absolute;
     font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cartItems4 {
@@ -368,18 +372,21 @@ textarea {
     left: 300px;
     position: absolute;
     font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .totalPriceTop {
     width: 600px;
     height: 10px;
     border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .totalPrice {
     width: 600px;
     height: 90px;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .totalPriceLeft {
@@ -387,6 +394,7 @@ textarea {
     top: 20px;
     left: 20px;
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .totalPriceRight {
@@ -394,6 +402,7 @@ textarea {
     top: 20px;
     right: 120px;
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .checkout {
@@ -563,6 +572,7 @@ textarea {
     /* width: 100%; */
     /* height: auto; */
     background-size: 100% 100%;
+    margin-bottom: 40px;
    
 }
 .backgroundTittle1{
@@ -685,7 +695,7 @@ textarea {
 .itemImg{
     /* margin-top: 10px; */
     width: 250px;
-    height: 300px;
+    height: 250px;
     overflow:hidden;
     border-radius: 16px 16px 0 0;
 }
@@ -711,7 +721,7 @@ textarea {
 
 .itemVo1{
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
